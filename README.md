@@ -1,4 +1,6 @@
 # A Generative Deep Learning Approach for Alzheimer’s Disease Drug Discovery
+![alzheimers](https://github.com/EfthimiosVlahos/Alzheimers-Generative-DL-Project/assets/56899588/10e52ad5-580f-4d93-86bc-37c8435bf8ff)
+
 
 ## Table of Contents
 - [Introduction](#introduction)
