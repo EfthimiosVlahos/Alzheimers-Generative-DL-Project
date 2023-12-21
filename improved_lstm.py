@@ -8,6 +8,7 @@ from keras.preprocessing.text import Tokenizer
 from keras_tuner import HyperModel
 import keras_tuner
 
+#data paths
 DATA_PATH = "data/data.txt"
 NEW_DATA = "data/processed_data.txt"
 TRAIN_DATA = 'data/train_data.txt'

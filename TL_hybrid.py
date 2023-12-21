@@ -7,6 +7,7 @@ from keras.layers import Dense
 import helper_functions as hf
 from tensorflow import keras
 
+#data paths
 DATA_PATH = "data/alzheimersdata.txt"
 NEW_DATA = "data/TL_processed_data.txt"
 TRAIN_DATA = "data/TL_train_data.txt"

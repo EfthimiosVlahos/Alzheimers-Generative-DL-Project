@@ -7,6 +7,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from keras.preprocessing.text import Tokenizer
 import helper_functions as hf
 
+#data paths
 DATA_PATH = "data/alzheimersdata.txt"
 NEW_DATA = "data/TL_processed_data.txt"
 TRAIN_DATA = "data/TL_train_data.txt"
