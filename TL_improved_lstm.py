@@ -12,6 +12,7 @@ from keras_tuner import HyperModel
 seed = 1
 np.random.seed(seed)
 
+#defining paths
 DATA_PATH = "data/alzheimersdata.txt"
 NEW_DATA = "data/TL_processed_data.txt"
 TRAIN_DATA = "data/TL_train_data.txt"
