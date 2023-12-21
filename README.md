@@ -65,13 +65,14 @@ molecules that can help inhibit BACE-1, slowing down Alzheimer's disease. In the
 
 ## References
 
-1. J. Cummings, P. S. Aisen, B. DuBois, L. Frölich, C. R. Jack, R. W. Jones, J. C. Morris, J. Raskin, S. A. Dowsett, and P. Scheltens, “Drug development in alzheimer’s disease: The path to 2025,” Alzheimer's Research & Therapy, vol. 8, no. 1, 2016.
-2. J.-L. Reymond, “The Chemical Space Project,” Accounts of Chemical Research, vol. 48, no. 3, pp. 722–730, 2015.
-3. A. Gupta, A. T. Müller, B. J. Huisman, J. A. Fuchs, P. Schneider, and G. Schneider, “Generative recurrent networks for de novo drug design,” Molecular Informatics, vol. 37, no. 1-2, p. 1700111, 2017.
-4. M. H. Segler, T. Kogej, C. Tyrchan, and M. P. Waller, “Generating focused molecule libraries for drug discovery with recurrent neural networks,” ACS Central Science, vol. 4, no. 1, pp. 120–131, 2017.
-5. A. Gaulton, L. J. Bellis, A. P. Bento, J. Chambers, M. Davies, A. Hersey, Y. Light, S. McGlinchey, D. Michalovich, B. Al-Lazikani, and J. P. Overington, “Chembl: A large-scale bioactivity database for Drug Discovery,” Nucleic Acids Research, vol. 40, no. D1, 2011.
-6. S. Huang, H. Mei, L. Lu, M. Qiu, X. Liang, L. Xu, Z. Kuang, Y. Heng, and X. Pan, “De novo molecular design of caspase-6 inhibitors by a GRU-based recurrent neural network combined with a transfer learning approach,” Pharmaceuticals, vol. 14, no. 12, p. 1249, 2021.
-7. T. T. Joy, S. Rana, S. Gupta, and S. Venkatesh, “Fast hyperparameter tuning using bayesian optimization with directional derivatives,” Knowledge-Based Systems, vol. 205, p. 106247, 2020.
-8. S. Yang, X. Yu, and Y. Zhou, “LSTM and GRU neural network performance comparison study: Taking Yelp Review dataset as an example,” 2020 International Workshop on Electronic Communication and Artificial Intelligence (IWECAI), 2020.
+1. J. Cummings, P. S. Aisen, B. DuBois, L. Frölich, C. R. Jack, R. W. Jones, J. C. Morris, J. Raskin, S. A. Dowsett, and P. Scheltens, [“Drug development in alzheimer’s disease: The path to 2025,”](https://doi.org/10.1186/s13195-016-0189-7) Alzheimer's Research & Therapy, vol. 8, no. 1, 2016.
+2. J.-L. Reymond, [“The Chemical Space Project,”](https://pubs.acs.org/doi/abs/10.1021/ar500234c) Accounts of Chemical Research, vol. 48, no. 3, pp. 722–730, 2015.
+3. A. Gupta, A. T. Müller, B. J. Huisman, J. A. Fuchs, P. Schneider, and G. Schneider, [“Generative recurrent networks for de novo drug design,”](https://onlinelibrary.wiley.com/doi/abs/10.1002/minf.201700111) Molecular Informatics, vol. 37, no. 1-2, p. 1700111, 2017.
+4. M. H. Segler, T. Kogej, C. Tyrchan, and M. P. Waller, [“Generating focused molecule libraries for drug discovery with recurrent neural networks,”](https://pubs.acs.org/doi/10.1021/acscentsci.7b00511) ACS Central Science, vol. 4, no. 1, pp. 120–131, 2017.
+5. A. Gaulton, L. J. Bellis, A. P. Bento, J. Chambers, M. Davies, A. Hersey, Y. Light, S. McGlinchey, D. Michalovich, B. Al-Lazikani, and J. P. Overington, [“Chembl: A large-scale bioactivity database for Drug Discovery,”](https://academic.oup.com/nar/article/40/D1/D1100/2902519) Nucleic Acids Research, vol. 40, no. D1, 2011.
+6. S. Huang, H. Mei, L. Lu, M. Qiu, X. Liang, L. Xu, Z. Kuang, Y. Heng, and X. Pan, [“De novo molecular design of caspase-6 inhibitors by a GRU-based recurrent neural network combined with a transfer learning approach,”](https://www.mdpi.com/1424-8247/14/12/1249) Pharmaceuticals, vol. 14, no. 12, p. 1249, 2021.
+7. T. T. Joy, S. Rana, S. Gupta, and S. Venkatesh, [“Fast hyperparameter tuning using bayesian optimization with directional derivatives,”](https://www.sciencedirect.com/science/article/pii/S0950705120301865) Knowledge-Based Systems, vol. 205, p. 106247, 2020.
+8. S. Yang, X. Yu, and Y. Zhou, [“LSTM and GRU neural network performance comparison study: Taking Yelp Review dataset as an example,”](https://ieeexplore.ieee.org/document/9174885) 2020 International Workshop on Electronic Communication and Artificial Intelligence (IWECAI), 2020.
+
 
 
