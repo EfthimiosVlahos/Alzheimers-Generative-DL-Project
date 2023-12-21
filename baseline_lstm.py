@@ -6,6 +6,7 @@ from keras.preprocessing.text import Tokenizer
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
 
+#data paths
 DATA_PATH = "data/data.txt"
 NEW_DATA = "data/processed_data.txt"
 TRAIN_DATA = 'data/train_data.txt'

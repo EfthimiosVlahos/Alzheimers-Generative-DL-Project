@@ -6,7 +6,7 @@ from rdkit import Chem, DataStructs
 seed = 1
 np.random.seed(seed)
 
-# reads the lines in a file
+#reads the lines in a file
 def read(fileName): 
         fileObj = open(fileName, "r") 
         words = fileObj.read().splitlines() 

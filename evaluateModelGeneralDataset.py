@@ -8,6 +8,7 @@ from tensorflow import keras
 seed = 1
 np.random.seed(seed)
 
+#data paths
 DATA_PATH = "data/data.txt"
 NEW_DATA = "data/processed_data.txt"
 TRAIN_DATA = "data/train_data.txt"
