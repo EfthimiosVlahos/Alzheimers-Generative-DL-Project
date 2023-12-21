@@ -15,7 +15,7 @@ The advent of deep learning offers a transformative solution to this challenge. 
 Drawing inspiration from studies like those of Gupta et al. and Segler et al., which emphasize the effectiveness of LSTM RNNs in drug discovery and molecular generation, our project focuses on β-secretase 1 (BACE-1), a critical protein in Alzheimer’s disease progression. By integrating advanced LSTM and GRU neural networks, we aim to accelerate the generation of potential inhibitors for BACE-1, thereby contributing to the fight against Alzheimer's disease.
 
 # Model Overview
-We implemented three models from scratch:
+I implemented three models from scratch:
 - **Baseline Model (Model A)**: Consists of an LSTM layer and a dropout layer. It serves as a foundation for comparison and further model development.
 - **Novel Model (Model B)**: A hybrid model combining GRU and LSTM layers to explore their efficacy in molecular generation.
 - **Advanced Model (Model C)**: A complex LSTM-only model with enhanced depth.
@@ -37,7 +37,7 @@ In my project, I utilized a two-pronged approach involving a generic chemical da
 
 
 # Results
-Our models showed promising results in learning chemical structures and generating potential drug compounds:
+The models showed promising results in learning chemical structures and generating potential drug compounds:
 
 - Baseline Model (Model A) showed an initial accuracy of 65.5%.
 - Hybrid Model (Model B) achieved an accuracy of 88.0% after transfer learning.
@@ -48,7 +48,7 @@ Our models showed promising results in learning chemical structures and generati
 </p>
 
 ## Analysis and Adjustments
-Our initial analysis revealed a high bias in the baseline model, prompting the need for a larger network. This led to the development of Model C with its five LSTM layers, resulting in a remarkable training accuracy of 94.2% and testing accuracy of 88.1%, a substantial improvement from the baseline model's 56.0% testing accuracy.
+My initial analysis revealed a high bias in the baseline model, prompting the need for a larger network. This led to the development of Model C with its five LSTM layers, resulting in a remarkable training accuracy of 94.2% and testing accuracy of 88.1%, a substantial improvement from the baseline model's 56.0% testing accuracy.
 
 ## Molecule Generation
 Using Model C, we successfully generated 18 new molecules, drawing from the Alzheimer’s dataset. Despite the molecules being slightly smaller than the reference due to the presence of a coded stop character, we demonstrated the model's capability to create valid chemical structures from molecular fragments.
@@ -58,17 +58,8 @@ Using Model C, we successfully generated 18 new molecules, drawing from the Alzh
 </p>
 
 # Conclusion
-This work explored the viability of recurrent neural networks in drug generation for Alzheimer’s disease.
-We trained three models, a baseline model, a novel hybrid model, and an improved baseline model. Our results
-significantly improved over our baseline model (Model A), which allowed us to be able to generate 18 new
-molecules that can help inhibit BACE-1, slowing down Alzheimer's disease. In the end, we hope to continue
-working on these models past this project to see if we can improve our models and generate more molecules, so that
-we can help the many families struggling from this painful disease. Going forward, we could build off our project by
-exploring implementing a variational autoencoder (VAE) architecture that can add more variability to our generated
-results. Additionally, we can perform more rounds of error analysis on our improved baseline (Model C) and hybrid
-models (Model B) to try to increase our accuracy on the test data. Finally, we look forward to trying to validate that
-the molecules we generated are functional for Alzheimer's disease treatment, so that we can see how our work could
-get implemented to help people in real life.
+This work explored the viability of recurrent neural networks in drug generation for Alzheimer’s disease. I trained three models, a baseline model, a novel hybrid model, and an improved baseline model. My results significantly improved over my baseline model (Model A), which allowed me to be able to generate 18 new
+molecules that can help inhibit BACE-1, slowing down Alzheimer's disease. In the end, I hope to continue working on these models past this project to see if I can improve our models and generate more molecules, so that I can help the many families struggling from this painful disease. Going forward, I could build off my project by exploring implementing a variational autoencoder (VAE) architecture that can add more variability to our generated results. Additionally, I can perform more rounds of error analysis on my improved baseline (Model C) and hybrid models (Model B) to try to increase our accuracy on the test data. Finally, I look forward to trying to validate that the molecules we generated are functional for Alzheimer's disease treatment, so that I can see how our work could get implemented to help people in real life.
 
 ## References
 
