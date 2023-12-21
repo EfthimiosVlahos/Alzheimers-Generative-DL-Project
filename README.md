@@ -58,6 +58,16 @@ Using Model C, we successfully generated 18 new molecules, drawing from the Alzh
 </p>
 
 ### Conclusion
-The hybrid model, combining GRU and LSTM layers, proved to be not only accurate but also computationally efficient. This approach, diverging from traditional models that solely employed either LSTM or GRU, showcased the benefits of integrating both types of neural networks. The results from our project provide a promising direction for future research in drug discovery, especially in areas requiring the generation of novel molecular structures.
+This work explored the viability of recurrent neural networks in drug generation for Alzheimer’s disease.
+We trained three models, a baseline model, a novel hybrid model, and an improved baseline model. Our results
+significantly improved over our baseline model (Model A), which allowed us to be able to generate 18 new
+molecules that can help inhibit BACE-1, slowing down Alzheimer's disease. In the end, we hope to continue
+working on these models past this project to see if we can improve our models and generate more molecules, so that
+we can help the many families struggling from this painful disease. Going forward, we could build off our project by
+exploring implementing a variational autoencoder (VAE) architecture that can add more variability to our generated
+results. Additionally, we can perform more rounds of error analysis on our improved baseline (Model C) and hybrid
+models (Model B) to try to increase our accuracy on the test data. Finally, we look forward to trying to validate that
+the molecules we generated are functional for Alzheimer's disease treatment, so that we can see how our work could
+get implemented to help people in real life.
 
 
