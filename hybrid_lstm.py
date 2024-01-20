@@ -58,7 +58,7 @@ x_val, y_val_2 = hf.prepare_data(val, tokenizer)
 
 
 '''
-# CODE WE USED TO TUNE OUR HYBRID
+# CODE USED TO TUNE HYBRID MODEL
 
 class Model(HyperModel):
   def build(self, hp):
