@@ -50,15 +50,9 @@ np.savetxt(TRAIN_DATA, train, fmt ='%s', newline='')
 np.savetxt(TEST_DATA, test, fmt ='%s', newline='')
 np.savetxt(VAL_DATA, val, fmt='%s', newline='')
 
-"""Train Data Processing"""
-
-#Load Data (optional: only if previous cells are not run and data is saved already)
-# train = pd.read_fwf('/content/drive/MyDrive/CS230/train_data.txt')
 
 """Train Data Processing"""
 
-#Load Data (optional: only if previous cells are not run and data is saved already)
-# train = pd.read_fwf('/content/drive/MyDrive/CS230/train_data.txt')
 
 tokenizer = Tokenizer(num_words=None, char_level=True, lower=False) 
 
