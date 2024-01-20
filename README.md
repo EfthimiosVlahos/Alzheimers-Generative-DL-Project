@@ -56,7 +56,7 @@ My initial analysis revealed a high bias in the baseline model, prompting the ne
 Using Model C, we successfully generated 18 new molecules, drawing from the Alzheimer’s dataset. Despite the molecules being slightly smaller than the reference due to the presence of a coded stop character, we demonstrated the model's capability to create valid chemical structures from molecular fragments.
 
 <p align="center">
-    <br><img src="assets/generated_molecules.png" width="500"/>
+    <br><img src="assets/modelC_generated_molecules.png" width="500"/>
 </p>
 
 # Conclusion
