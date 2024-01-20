@@ -4,10 +4,11 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Data and Feature Generation](#data-and-evaluation)
 - [Model Overview](#model-overview)
-- [Data and Evaluation](#data-and-evaluation)
 - [Project Structure](#project-structure)
 - [Results](#results)
+- [Conclsuion](#conclusion)
 
 # Introduction
 In the realm of drug discovery, especially for complex neurological conditions such as Alzheimer's disease, the journey from concept to viable treatment is notoriously prolonged, often extending beyond a decade. This slow pace is largely attributed to the overwhelming complexity of the chemical space, estimated at around 10^60 potential drug-like molecules. Traditional approaches often involve empirical selection from this vast space, a method that lacks efficiency and speed.
