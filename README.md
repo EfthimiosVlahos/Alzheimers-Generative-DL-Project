@@ -24,7 +24,12 @@ I split the dataset into training (72%) , testing (20%), and validation sets (8%
 
 ## Feature Generation
 
-In order to convert our raw character strings into data features learnable by our deep learning models, we leveraged a modified form of n-grams sequence processing to allow us to predict for the next character that follows a 15 character input sequence (Figure 2). In this feature representation, the model takes in the last 15 characters to predict the next character, allowing us to sequentially generate text.
+In order to convert our raw character strings into data features learnable by our deep learning models, I leveraged a modified form of n-grams sequence processing to allow the models to predict for the next character that follows a 15 character input sequence. In this feature representation, the model takes in the last 15 characters to predict the next character, allowing me to sequentially generate text.
+
+<p align="center">
+    <img src="assets/Ngram_feature_generation.png" width="500"/>
+</p>
+
 
 
 
