@@ -16,6 +16,18 @@ The advent of deep learning offers a transformative solution to this challenge. 
 
 Drawing inspiration from studies like those of Gupta et al. and Segler et al., which emphasize the effectiveness of LSTM RNNs in drug discovery and molecular generation, our project focuses on β-secretase 1 (BACE-1), a critical protein in Alzheimer’s disease progression. By integrating advanced LSTM and GRU neural networks, we aim to accelerate the generation of potential inhibitors for BACE-1, thereby contributing to the fight against Alzheimer's disease.
 
+# Data and Evaluation
+In my project, I utilized a two-pronged approach involving a generic chemical dataset and a focused dataset for Alzheimer's disease and BACE-1, both sourced from ChEMBL. The generic dataset, comprising 300,000 compounds, enabled the models to learn broad chemical syntax. In contrast, the focused dataset, containing 1,560 BACE-1 inhibitors, allowed for learning complex features specific to Alzheimer's disease. The datasets were preprocessed using the Keras tokenizer and featured a modified n-grams sequence processing for character prediction.
+
+## Data Preprocessing 
+I split the dataset into training (72%) , testing (20%), and validation sets (8%), with percentages representing the data breakdown. I then processed all the datasets by fitting the Keras tokenizer to the corresponding data sets, allowing me to convert the raw characters into model-usable numerical values.
+
+## Feature Generation
+
+In order to convert our raw character strings into data features learnable by our deep learning models, we leveraged a modified form of n-grams sequence processing to allow us to predict for the next character that follows a 15 character input sequence (Figure 2). In this feature representation, the model takes in the last 15 characters to predict the next character, allowing us to sequentially generate text.
+
+
+
 # Model Overview
 I implemented three models from scratch:
 - **Baseline Model (Model A)**: Consists of an LSTM layer and a dropout layer. It serves as a foundation for comparison and further model development.
@@ -26,8 +38,15 @@ I implemented three models from scratch:
     <img src="assets/model_structs.png" width="500"/>
 </p>
 
-# Data and Evaluation
-In my project, I utilized a two-pronged approach involving a generic chemical dataset and a focused dataset for Alzheimer's disease and BACE-1, both sourced from ChEMBL. The generic dataset, comprising 300,000 compounds, enabled the models to learn broad chemical syntax. In contrast, the focused dataset, containing 1,560 BACE-1 inhibitors, allowed for learning complex features specific to Alzheimer's disease. The datasets were preprocessed using the Keras tokenizer and featured a modified n-grams sequence processing for character prediction.
+## Model Training & Transfer Learning
+
+To improve model’s learning capabilities, I leveraged transfer learning to train the three models, first allowing the model to learn from the generic dataset and then fine tuning its weights on the specific dataset for Alzheimer’s disease. I trained the models for 40 epochs, but implemented early stopping with a patience of five epochs to ensure my model accuracy and loss metrics didn't deteriorate over time.
+
+## Hyperparameter Tuning
+
+In order to optimize my model’s hyperparameters, I leveraged Bayesian optimization, which specializes in an informed search of a model’s hyperparameters. Unlike other optimization protocols like random search, Bayesian leverages knowledge from previous trials to make an educated decision when deciding the next trial’s optimal parameters, which significantly speeds up the optimization time, while providing better results. For Model B and Model C, I optimized for their parameters using Bayesian optimization for three epochs and three trials for each model. I then used the results from these trials to dictate the hyperparameter tuning.
+
+
 
 # Project Structure
 - **Baseline LSTM Code**: [Baseline Training Code](baseline_lstm.py)
