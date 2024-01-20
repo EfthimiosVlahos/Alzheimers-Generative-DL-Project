@@ -44,7 +44,6 @@ full_train, test = train_test_split(np.array(var), test_size=0.2, random_state=s
 # full_train, test = train_test_split(np.array(var), test_size=0.25, random_state=seed)
 
 #split full train set into smaller train set and validation (dev) set
-# np.savetxt('/content/drive/MyDrive/CS230/full_train_data.txt', full_train, fmt ='%s', newline='')
 train, val = train_test_split(np.array(full_train), test_size=0.10, random_state=seed)
 np.savetxt(TRAIN_DATA, train, fmt ='%s', newline='')
 np.savetxt(TEST_DATA, test, fmt ='%s', newline='')
